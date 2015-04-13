@@ -276,6 +276,14 @@ typedef void (^MBProgressHUDCompletionBlock)();
 
 #endif
 
+/**
+ * !!!: Expose the indicator view to allow customization
+ *
+ * @param
+ * @return
+ */
+@property (atomic, MB_STRONG) UIView *indicator;
+
 /** 
  * MBProgressHUD operation mode. The default is MBProgressHUDModeIndeterminate.
  *

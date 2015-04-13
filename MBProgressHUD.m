@@ -65,7 +65,6 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 	CGAffineTransform rotationTransform;
 }
 
-@property (atomic, MB_STRONG) UIView *indicator;
 @property (atomic, MB_STRONG) NSTimer *graceTimer;
 @property (atomic, MB_STRONG) NSTimer *minShowTimer;
 @property (atomic, MB_STRONG) NSDate *showStarted;
